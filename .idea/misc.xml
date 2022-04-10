@@ -11,7 +11,12 @@
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/drawable/send.xml" value="0.1625" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/activity_splash.xml" value="0.22509057971014493" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/activity_voice_fragment.xml" value="0.2" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/fragment_voice.xml" value="0.1" />
         <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/item.xml" value="0.4" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/layout/nav_header.xml" value="0.1947463768115942" />
+        <entry key="..\:/Users/KIIT/AndroidStudioProjects/ASRbot/app/src/main/res/menu/menu.xml" value="0.25" />
       </map>
     </option>
   </component>

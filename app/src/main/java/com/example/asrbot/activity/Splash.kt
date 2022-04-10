@@ -8,6 +8,7 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.asrbot.R
 
+@Suppress("DEPRECATION")
 class Splash : AppCompatActivity() {
 
     lateinit var imageView: ImageView
