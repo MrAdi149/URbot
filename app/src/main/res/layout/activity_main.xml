@@ -9,19 +9,25 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/black"
         tools:context=".activity.MainActivity">
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/framelayout"/>
 
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/wallpaper"
+            android:scaleType="matrix"
+            />
 
         <LinearLayout
             android:id="@+id/ll_layout_bar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:background="#E4E4E4"
             android:orientation="horizontal">
 
             <EditText
@@ -64,7 +70,7 @@
             android:id="@+id/dark_divider"
             android:layout_width="match_parent"
             android:layout_height="10dp"
-            android:background="#42A5F5" />
+            android:background="@color/black" />
 
 
 

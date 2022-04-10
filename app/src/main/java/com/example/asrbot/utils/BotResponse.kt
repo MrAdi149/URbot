@@ -4,6 +4,7 @@ import com.example.asrbot.utils.Constants.OPEN_GOOGLE
 import com.example.asrbot.utils.Constants.OPEN_SEARCH
 import com.example.asrbot.utils.Constants.PLAY_MY
 import com.example.asrbot.utils.Constants.PLAY_SONG
+import com.example.asrbot.utils.Constants.PLAY_YOUTUBE
 import java.sql.Timestamp
 import java.text.SimpleDateFormat
 import java.sql.Date
@@ -26,8 +27,8 @@ object BotResponse {
             }
 
             //Math calculations
-            message.contains("solve") -> {
-                val equation: String? = message.substringAfterLast("solve")
+            message.contains("calculate") -> {
+                val equation: String? = message.substringAfterLast("calculate")
                 return try {
                     val answer = SolveMath.solveMath(equation ?: "0")
                     "$answer"
@@ -159,7 +160,11 @@ object BotResponse {
                 PLAY_SONG
             }
 
-            message.contains("mood")&& message.contains("kharab")&& message.contains("lg")&& message.contains("rha")-> {
+            message.contains("solve")->{
+                PLAY_YOUTUBE
+            }
+
+            message.contains("my")&& message.contains("fav")&& message.contains("song")-> {
                 PLAY_MY
             }
 

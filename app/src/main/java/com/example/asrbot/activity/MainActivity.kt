@@ -18,6 +18,7 @@ import com.example.asrbot.utils.Constants.OPEN_GOOGLE
 import com.example.asrbot.utils.Constants.OPEN_SEARCH
 import com.example.asrbot.utils.Constants.PLAY_MY
 import com.example.asrbot.utils.Constants.PLAY_SONG
+import com.example.asrbot.utils.Constants.PLAY_YOUTUBE
 import com.example.asrbot.utils.Constants.RECEIVE_ID
 import com.example.asrbot.utils.Constants.SEND_ID
 import com.example.asrbot.utils.Time
@@ -178,6 +179,12 @@ class MainActivity : AppCompatActivity() {
                     PLAY_MY->{
                         val site = Intent(Intent.ACTION_VIEW)
                         site.data=Uri.parse("https://www.youtube.com/watch?v=Il-an3K9pjg")
+                        startActivity(site)
+                    }
+                    PLAY_YOUTUBE->{
+                        val site = Intent(Intent.ACTION_VIEW)
+                        val searchTerm: String? = message.substringAfterLast("solve")
+                        site.data=Uri.parse("https://www.youtube.com/results?search_query=$searchTerm")
                         startActivity(site)
                     }
 

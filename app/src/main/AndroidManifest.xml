@@ -16,13 +16,15 @@
         android:theme="@style/Theme.ASRbot">
         <activity
             android:name=".voice.HelpActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
         <activity
             android:name=".voice.AboutRobo"
             android:exported="false" />
         <activity
             android:name=".fragment.VoiceFragment"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".activity.Splash"
             android:exported="true">

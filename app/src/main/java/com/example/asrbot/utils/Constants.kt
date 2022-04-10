@@ -7,5 +7,6 @@ object Constants {
     const val OPEN_GOOGLE="Opening Google........"
     const val PLAY_SONG="WAIT........."
     const val PLAY_MY="OK SIR..."
+    const val PLAY_YOUTUBE="SOLVING....."
     const val OPEN_SEARCH="Searching........"
 }
