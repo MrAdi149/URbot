@@ -20,3 +20,6 @@ For me it’s like my best friend because if I am sad I only type”my mood is n
 Accuracy Detail-
 gives correct calculation or solve any mathematic or physics solution
 provide you information according to your need.
+
+
+![WhatsApp Image 2022-04-11 at 3 07 34 AM](https://user-images.githubusercontent.com/94374850/162665132-b10ee620-c798-43eb-a55d-831c18e21302.jpeg)
